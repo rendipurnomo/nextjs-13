@@ -71,7 +71,7 @@ export default function UpdateProduct(product: Product) {
               <input
                 type="text"
                 value={price}
-                onChange={(e) => setPrice(number(e.target.value))}
+                onChange={(e) => setPrice(Number(e.target.value))}
                 className="input w-full input-bordered"
                 placeholder="Price"
               />
